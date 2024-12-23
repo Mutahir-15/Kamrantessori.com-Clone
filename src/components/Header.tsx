@@ -2,6 +2,8 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { IoIosArrowDown } from "react-icons/io";
+import { Menu, Sheet } from "lucide-react";
+import { SheetContent, SheetTrigger } from "./ui/sheet";
 
 function Header() {
   return (
@@ -40,7 +42,6 @@ function Header() {
         </ul>
       </div>
     </nav>
-    // Mobile Sheet Section
   );
 }
 
