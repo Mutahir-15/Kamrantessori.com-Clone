@@ -4,6 +4,7 @@ import Image from "next/image";
 function HeroSection() {
   return (
     <main className="max-w-[1440px] p-0 md:p-5 justify-center items-center mx-auto">
+      <Image src={"/images/"} alt="Governor Sindh" width={1440} height={400} />
       <section className="grid grid-cols-[1fr_1fr] justify-between">
         {/*Text Section*/}
         <div className="flex flex-col justify-center text-black items-start text-left">
