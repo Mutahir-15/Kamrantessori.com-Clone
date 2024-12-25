@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function HeroSection() {
@@ -46,7 +47,7 @@ function HeroSection() {
         </div>
         {/* Image Section */}
         <div className="relative mt-16 md:mt-0 w-full h-full flex justify-end items-end p-4 md:justify-center md:items-center">
-          <img
+          <Image
             src={"/images/governor.png"}
             alt="Governor Sindh"
             className="absolute bottom-0 right-0 md:relative md:bottom-auto md:right-auto md:w-auto md:h-auto"
